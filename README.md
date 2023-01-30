@@ -4,4 +4,5 @@
 But you should be able to use any fresh install of Ubuntu 22 to follow along.
 
 #### Commands: 
+- `sudo apt update && sudo apt -y upgrade`
 - 
