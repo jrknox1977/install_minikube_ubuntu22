@@ -29,7 +29,7 @@ I am using AWS EC2 ubuntu 22, but you should be able to use any fresh install of
 - `minikube version`
 
 ### Install kubectl on Ubuntu
-- `curl -LO https://storage.googleapis.com/kubernetes-release/release/`
+- `curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl`
 - `chmod +x ./kubectl`
 - `sudo mv ./kubectl /usr/local/bin/kubectl`
 #### Check kubectl version
